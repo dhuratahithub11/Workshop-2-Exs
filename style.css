@@ -108,3 +108,73 @@ nav {
 .container img {
   border-radius: 3%;
 }
+
+/* section-two */
+
+.class {
+  width: 50%;
+  padding: 10px;
+}
+.classes {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 6%;
+}
+
+.class-inner {
+  background: #ffffff;
+  padding: 8% 5% 0 5%;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+}
+
+.class-inner .media {
+  position: relative;
+}
+
+.media img {
+  border-radius: 50%;
+}
+.class-inner .Content {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.class.Content > *:last-child {
+  margin-bottom: 0;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.wrap {
+  width: 100%;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #f1f1f1;
+  color: #000;
+  border-radius: 5%;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 13px 16px;
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  text-align: center;
+  transition: background-color 0.3s ease-out;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
